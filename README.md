@@ -10,8 +10,9 @@ matrix by flood filling the matrix, and thus find the distance between the two f
 computed. " (Wikipedia). This algorithm was implemented to quickly screen recombinant Antibody clone variable regions to
 putative targets.
 
-Weighted and unweighted versions were created. The weighted version selects for Clones with better CDR3 matches, as CDR3
-is the most variable and is expected to be most important for antigen binding.
+There are weighted and unweighted versions. The weighted version selects for Clones with better CDR3 matches, as CDR3
+is the most variable and is expected to be most important for antigen binding. The unweighted version assigns CDR1, CDR2
+and CDR3 mismatch penalties equally.
 
 Antibody Annotation is accomplished through IMGT: http://www.imgt.org/IMGT_vquest/share/textes/
 
